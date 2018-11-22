@@ -18,5 +18,5 @@ router.put('/:supervId',updateSuperv);
 router.delete('/:supervId',deleteSuperv);
 
 router.get('/:supervId/dealer',getSupervDealers);
-router.post('/:supervId/dealer',newSupervDealer)
+router.post('/:supervId/dealer',newSupervDealer);
 module.exports = router;

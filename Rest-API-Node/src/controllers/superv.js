@@ -1,10 +1,11 @@
 const Superv = require('../models/superv');
 const Dealer = require('../models/dealer');
+
 module.exports = {
   index: async (req, res, next) => {
     const superv = await Superv.find({});
-
     res.status(200).json(superv);
+    
   },
 
   newSuperv: async (req, res, next) => {
