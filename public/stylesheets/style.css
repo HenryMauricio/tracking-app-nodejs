@@ -1,0 +1,17 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#maps{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  background: #333;
+}
